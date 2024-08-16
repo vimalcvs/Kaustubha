@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/dm_sans</item>
+        <item>@font/dm_sans_medium</item>
+        <item>@font/dm_sans_semibold</item>
+        <item>@font/inter</item>
+        <item>@font/poppins</item>
+        <item>@font/poppins_bold</item>
+        <item>@font/poppins_extrabold</item>
+        <item>@font/poppins_semibold</item>
+        <item>@font/public_sans_bold</item>
+        <item>@font/public_sans_semibold</item>
+    </array>
+</resources>

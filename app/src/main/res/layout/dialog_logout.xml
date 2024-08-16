@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/dialog_background">
+
+    <TextView
+        android:id="@+id/tvLogoutTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:fontFamily="@font/inter"
+        android:layout_weight="600"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E5E7EB"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you sure you want to log out?"
+        android:fontFamily="@font/inter"
+        android:layout_weight="600"
+        android:textSize="16sp"
+        android:textColor="#6B7280"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:fontFamily="@font/inter"
+            android:textFontWeight="700"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/purple"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_gradient_style_gray"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Yes, Logout"
+            android:fontFamily="@font/inter"
+            android:textFontWeight="700"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:background="@drawable/btn_gradient_style"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+</LinearLayout>

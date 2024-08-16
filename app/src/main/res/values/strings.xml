@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kaustubha</string>
+    <string name="default_web_client_id">542699769726-cb4ksbdjvsamiu3maab46i8vu3tpoel0.apps.googleusercontent.com</string>
+
+    <string name="facebook_app_id">1234</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+
+</resources>
